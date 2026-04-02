@@ -4,20 +4,63 @@
 <title>Biodataku</title>
 
 <style>
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4da6ff, #66ccff);
+    margin: 0;
+}
+
+/* Header */
 .judul{
-background: lightblue;
-text-align: center;
-padding: 10px;
+    text-align: center;
+    padding: 30px;
+    color: white;
 }
 
+/* Card utama */
 .isi{
-background: lightgray;
-padding: 10px;
+    background: white;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+    text-align: center;
 }
 
+/* Foto */
+.foto{
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Warna teks */
 .nama{color: blue;}
 .npm{color: green;}
 .usia{color: red;}
+
+h2{
+    border-bottom: 2px solid #4da6ff;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* List */
+ul, ol{
+    text-align: left;
+}
+
+/* Link */
+a{
+    text-decoration: none;
+    color: #4da6ff;
+    font-weight: bold;
+}
+
+a:hover{
+    color: orange;
+}
 </style>
 
 </head>
@@ -25,13 +68,70 @@ padding: 10px;
 <body>
 
 <div class="judul">
-<h1>BIODATAKU</h1>
+    <h1>Selamat Datang di Website Saya</h1>
+    <h1>BIODATAKU</h1>
 </div>
 
 <div class="isi">
-<p><b class="nama">Nama:</b> <span>Mochamad alfatah syaipa</span> <span>Mahasiswa universitas halim sanusi</span></p>
+
+<!-- FOTO -->
+<img src="foto.jpg" class="foto">
+
+<p><b class="nama">Nama:</b> Mochamad Alfatah Syaipa</p>
 <p><b class="npm">NPM:</b> 124005068</p>
 <p><b class="usia">Usia:</b> 19 Tahun</p>
+
+<hr>
+
+<h2>Media Sosial</h2>
+<ul>
+    <li>
+        Instagram:
+        <a href="https://instagram.com/29alfatah" target="_blank">
+            @29alfatah
+        </a>
+    </li>
+    <li>
+        Facebook:
+        <a href="https://facebook.com/cepalfatah" target="_blank">
+            Cep Alfatah
+        </a>
+    </li>
+</ul>
+
+<h2>Pengalaman Kerja</h2>
+<ul>
+    <li>Magang di sekolah mimha</li>
+    <li>Menjadi Waiter </li>
+    <li>Belajar mikrotik dan membuat jaringan lan</li>
+</ul>
+
+<h2>Bahasa yang Dikuasai</h2>
+<ol type="A">
+    <li>Bahasa Indonesia</li>
+    <li>Bahasa Sunda</li>
+</ol>
+
+<h2>Makanan Favorit</h2>
+<ul>
+    <li>Nasi Goreng</li>
+    <li>Bakso</li>
+    <li>Mie Ayam</li>
+</ul>
+
+<h2>Artis Favorit</h2>
+<ul>
+
+    <li>doel subang</li>
+    <li>darso</li>
+</ul>
+
+<hr>
+
+<p>
+    <a href="projek.html">Lihat Projek Saya</a>
+</p>
+
 </div>
 
 </body>
